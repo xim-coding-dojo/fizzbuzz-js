@@ -9,7 +9,7 @@ function getFizzBuzzList() {
   
   
   const resultArray = Array.from({length: 100}, (x, i) => i+1)
-  .map(mapToFizzForModulo3(i))
+  .map(i => mapToFizzForModulo3(i))
   .map(i=>(i % 5) === 0 ? "Buzz" : i)
   .map(i=>(i % 3*5) === 0 ? "FizzBuzz" : i)
   .map(i=>i+"");
