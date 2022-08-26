@@ -43,5 +43,21 @@
       7,
       264561
     ]
+  },
+  {
+    "duration": 3.661538,
+    "colour": "green",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 3,
+    "time": [
+      2022,
+      8,
+      26,
+      8,
+      15,
+      1,
+      594583
+    ]
   }
 ]
