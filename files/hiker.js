@@ -34,7 +34,7 @@ function getFizzBuzzList() {
     
   }
   
-  console.log(resultArray2);
+  console.log(resultArray);
   return resultArray;
 }
 module.exports = getFizzBuzzList;
