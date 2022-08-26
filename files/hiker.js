@@ -16,9 +16,7 @@ function getFizzBuzzList() {
   
   function mapModuloToString(modulo, string)
   {
-    return (number) {
-      return (number % modulo) === 0 ? string
-    }
+    return (number) => (number % modulo) === 0 ? string
   }
   
   /* var resultArray2 = [];
