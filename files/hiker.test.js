@@ -19,6 +19,6 @@ describe('fizzbuzz', () => {
     expect(fizzBuzzArray[2]).toEqual(fizzBuzzArrayDump[2]);
   });
   it('to get Buzz', () => {
-    expect(fizzBuzzArray[4]).toEqual(fizzBuzzArrayDump[4]);
+    expect(fizzBuzzArray[4]).toEqual(fizzBuzzArrayDump[3]);
   });
 });
