@@ -1,15 +1,15 @@
 FAIL ./hiker.test.js
   fizzbuzz
-    ✓ to get first (5 ms)
+    ✓ to get first (3 ms)
     ✓ to get Fizz
-    ✕ to get Buzz (3 ms)
+    ✕ to get Buzz (2 ms)
 
   ● fizzbuzz › to get Buzz
 
     expect(received).toEqual(expected) // deep equality
 
     Expected: undefined
-    Received: "5"
+    Received: "Buzz"
 
       20 |   });
       21 |   it('to get Buzz', () => {
@@ -24,7 +24,7 @@ FAIL ./hiker.test.js
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 2 passed, 3 total
 Snapshots:   0 total
-Time:        1.475 s
+Time:        1.479 s
 Ran all test suites.
 npm ERR! code ELIFECYCLE
 npm ERR! errno 1
@@ -35,4 +35,4 @@ npm ERR! Failed at the @ test script.
 npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     /home/sandbox/.npm/_logs/2022-08-26T08_38_27_829Z-debug.log
+npm ERR!     /home/sandbox/.npm/_logs/2022-08-26T08_39_04_851Z-debug.log

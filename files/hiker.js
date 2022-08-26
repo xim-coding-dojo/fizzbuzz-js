@@ -18,6 +18,10 @@ function getFizzBuzzList() {
     {
       resultArray2.push("Fizz");
     }
+    else if ((i % 5) === 0)
+    {
+      resultArray2.push("Buzz");
+    }
     else
     {
       resultArray2.push(i +"");
