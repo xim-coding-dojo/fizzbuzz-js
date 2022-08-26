@@ -1,9 +1,9 @@
 PASS ./hiker.test.js
   fizzbuzz
-    ✓ to get fizz and buzz (103 ms)
+    ✓ to get fizz and buzz (22 ms)
 
 Test Suites: 1 passed, 1 total
 Tests:       1 passed, 1 total
 Snapshots:   0 total
-Time:        1.437 s
+Time:        2.24 s
 Ran all test suites.

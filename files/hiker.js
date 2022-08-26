@@ -6,10 +6,11 @@ function answer() {
 
 function getFizzBuzzList() {
   
-  Array.from({length: 100}, (x, i) => {
-    console.log(i);
+  const resultArray = Array.from({length: 3}, (x, i) => {
+    return i;
   });
   
+  console.log(resultArray);
   return ["1", "2", "Fizz"];
 }
 module.exports = getFizzBuzzList;
