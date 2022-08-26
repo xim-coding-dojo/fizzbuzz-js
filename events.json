@@ -107,5 +107,21 @@
       6,
       173593
     ]
+  },
+  {
+    "duration": 3.498813,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 7,
+    "time": [
+      2022,
+      8,
+      26,
+      8,
+      25,
+      58,
+      719639
+    ]
   }
 ]
