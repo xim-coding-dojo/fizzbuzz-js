@@ -7,13 +7,14 @@ function answer() {
 function getFizzBuzzList() {
   
   const resultArray = Array.from({length: 3}, (x, i) => {
-    return i;
+    return i % 3 ? 'Fizz' : i % 5 ? 'Buzz' : i + '' ;
   });
   
   var resultArray2 = [];
   
   for (var i = 1; i <= 100; i++)
   {
+    
     if ((i % 3) === 0)
     {
       resultArray2.push("Fizz");
@@ -26,9 +27,12 @@ function getFizzBuzzList() {
     {
       resultArray2.push(i + "");
     }
+    
+    
+    
   }
   
   console.log(resultArray2);
-  return resultArray2;
+  return resultArray;
 }
 module.exports = getFizzBuzzList;
