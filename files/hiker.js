@@ -6,7 +6,7 @@ function answer() {
 
 function getFizzBuzzList() {
   
-  const resultArray = Array.from({length: 3}, (x, i) => {
+  const resultArray = Array.from({length: 101}, (x, i) => {
     console.log(i%3)
     
     return i % 3 === 0 ? 'Fizz' : !(i % 5) ? 'Buzz' : i + '' ;
