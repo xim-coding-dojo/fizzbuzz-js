@@ -37,9 +37,7 @@ function getFizzBuzzList() {
       resultArray2.push(i + "");
     }
     
-  */
-    
-  }
+  } */
   
   console.log(resultArray);
   return resultArray;
