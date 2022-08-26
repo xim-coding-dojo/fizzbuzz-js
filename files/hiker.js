@@ -7,6 +7,8 @@ function answer() {
 function getFizzBuzzList() {
   
   const resultArray = Array.from({length: 3}, (x, i) => {
+    console.log(i%3)
+    
     return i % 3 ? 'Fizz' : i % 5 ? 'Buzz' : i + '' ;
   });
   

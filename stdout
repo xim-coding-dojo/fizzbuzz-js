@@ -3,8 +3,33 @@
 > eslint --config ${CYBER_DOJO_SANDBOX}/.eslintrc.json /**/*.js
 
 
+/sandbox/hiker.js
+  10:21  error  Missing semicolon  semi
+
+✖ 1 problem (1 error, 0 warnings)
+  1 error and 0 warnings potentially fixable with the `--fix` option.
+
+
 > @ test /sandbox
 > jest --coverage
+
+  console.log
+    0
+
+      at from (hiker.js:10:13)
+          at Function.from (<anonymous>)
+
+  console.log
+    1
+
+      at from (hiker.js:10:13)
+          at Function.from (<anonymous>)
+
+  console.log
+    2
+
+      at from (hiker.js:10:13)
+          at Function.from (<anonymous>)
 
   console.log
     [
@@ -23,11 +48,11 @@
       '97',   '98',   'Fizz', 'Buzz'
     ]
 
-      at getFizzBuzzList (hiker.js:35:11)
+      at getFizzBuzzList (hiker.js:37:11)
 
 ----------|---------|----------|---------|---------|-------------------
 File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ----------|---------|----------|---------|---------|-------------------
-All files |   92.86 |     87.5 |   66.67 |   92.31 |                   
- hiker.js |   92.86 |     87.5 |   66.67 |   92.31 | 4                 
+All files |   93.33 |     87.5 |   66.67 |   92.86 |                   
+ hiker.js |   93.33 |     87.5 |   66.67 |   92.86 | 4                 
 ----------|---------|----------|---------|---------|-------------------
