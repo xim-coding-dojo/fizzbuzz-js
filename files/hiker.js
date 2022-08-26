@@ -24,7 +24,7 @@ function getFizzBuzzList() {
     }
     else
     {
-      resultArray2.push(i +"");
+      resultArray2.push(i + "");
     }
   }
   
