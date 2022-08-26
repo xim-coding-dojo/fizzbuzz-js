@@ -16,9 +16,12 @@ function getFizzBuzzList() {
   {
     if (i % 3 == 0)
     {
-    resultArray2.push("fizz");
+      resultArray2.push("Fizz");
     }
-    resultArray2.push(i +"");
+    else
+    {
+      resultArray2.push(i +"");
+    }
   }
   
   console.log(resultArray2);
