@@ -14,6 +14,10 @@ function getFizzBuzzList() {
   
   for (var i = 1; i <= 100; i++)
   {
+    if (i % 3 == 0)
+    {
+    resultArray2.push("fizz");
+    }
     resultArray2.push(i +"");
   }
   
