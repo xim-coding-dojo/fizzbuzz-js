@@ -14,7 +14,7 @@ function getFizzBuzzList() {
   
   for (var i = 1; i <= 100; i++)
   {
-    resultArray2.push(i);
+    resultArray2.push(i +"");
   }
   
   console.log(resultArray2);
