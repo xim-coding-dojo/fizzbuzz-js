@@ -10,7 +10,14 @@ function getFizzBuzzList() {
     return i;
   });
   
+  var resultArray2 = [];
+  
+  for (var i = 1; i <= 100; i++)
+  {
+    resultArray2.push(i);
+  }
+  
   console.log(resultArray);
-  return ["1", "2", "Fizz"];
+  return resultArray2;
 }
 module.exports = getFizzBuzzList;
