@@ -4,7 +4,7 @@
 
 
 /sandbox/hiker.js
-  20:3  error  Parsing error: Unexpected token }
+  45:3  error  Parsing error: 'return' outside of function
 
 ✖ 1 problem (1 error, 0 warnings)
 
