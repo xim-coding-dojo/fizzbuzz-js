@@ -7,9 +7,9 @@ function answer() {
 function getFizzBuzzList() {
   
   const resultArray = Array.from({length: 100}, (x, i) => i+1)
-  .map(i=>(i % 3*5) === 0 ? "FizzBuzz" : i)
   .map(i=>(i % 3) === 0 ? "Fizz" : i)
   .map(i=>(i % 5) === 0 ? "Buzz" : i)
+  .map(i=>(i % 3*5) === 0 ? "FizzBuzz" : i)
   .map(i=>i+"");
   
   
