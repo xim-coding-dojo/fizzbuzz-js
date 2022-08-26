@@ -6,11 +6,12 @@ function answer() {
 
 function getFizzBuzzList() {
   
-  const resultArray = Array.from({length: 101}, (x, i) => {
-    console.log(i%3)
-    
-    return i % 3 === 0 ? 'Fizz' : !(i % 5) ? 'Buzz' : i + '' ;
-  });
+  const resultArray = Array.from({length: 100}, (x, i) => i+1)
+  .map(i=>(i % 3) === 0 "Fizz" : i)
+  .map(i=>(i % 5) === 0 "Buzz" : i)
+  .map(i=>i);
+  
+  
   
   var resultArray2 = [];
   
