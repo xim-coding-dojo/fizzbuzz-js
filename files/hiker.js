@@ -15,7 +15,7 @@ function getFizzBuzzList() {
   .map(mapToFizzForModulo3)
   .map(mapToBuzzForModulo5)
   .map(mapToFizzBuzzForModulo15)
-  .map(i+"");
+  .map(i=>i+"");
   
   function mapModuloToString(modulo, string)
   {
