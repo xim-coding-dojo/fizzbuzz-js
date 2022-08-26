@@ -4,4 +4,7 @@ function answer() {
   return 6 * 9;
 }
 
-module.exports = answer;
+function getFizzBuzzList() {
+  return ["1", "2", "Fizz"];
+}
+module.exports = getFizzBuzzList;
