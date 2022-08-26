@@ -1,100 +1,27 @@
 FAIL ./hiker.test.js
   fizzbuzz
-    ✕ to get first (6 ms)
-    ✕ to get Fizz (1 ms)
-    ✕ to get Buzz (3 ms)
+    ✕ encountered a declaration exception (3 ms)
 
-  ● fizzbuzz › to get first
+  ● fizzbuzz › encountered a declaration exception
 
-    expect(received).toEqual(expected) // deep equality
+    ReferenceError: i is not defined
 
-    - Expected  -  1
-    + Received  + 10
+      16 |   .map(mapToBuzzForModulo5)
+      17 |   .map(mapToFizzBuzzForModulo15)
+    > 18 |   .map(i+"");
+         |        ^
+      19 |   
+      20 |   function mapModuloToString(modulo, string)
+      21 |   {
 
-    - 1
-    + number => {
-    +       /* istanbul ignore next */
-    +       cov_1vsvadvvax().f[8]++;
-    +       cov_1vsvadvvax().s[11]++;
-    +       return number % modulo === 0 ?
-    +       /* istanbul ignore next */
-    +       (cov_1vsvadvvax().b[0][0]++, string) :
-    +       /* istanbul ignore next */
-    +       (cov_1vsvadvvax().b[0][1]++, number);
-    +     }
-
-      14 |     const fizzBuzzArray = getFizzBuzzList();
-      15 |   it('to get first', () => {
-    > 16 |     expect(fizzBuzzArray[0]).toEqual(fizzBuzzArrayDump[0]);
-         |                              ^
-      17 |   });
-      18 |   it('to get Fizz', () => {
-      19 |     expect(fizzBuzzArray[2]).toEqual(fizzBuzzArrayDump[2]);
-
-      at Object.<anonymous> (hiker.test.js:16:30)
-
-  ● fizzbuzz › to get Fizz
-
-    expect(received).toEqual(expected) // deep equality
-
-    - Expected  -  1
-    + Received  + 10
-
-    - Fizz
-    + number => {
-    +       /* istanbul ignore next */
-    +       cov_1vsvadvvax().f[8]++;
-    +       cov_1vsvadvvax().s[11]++;
-    +       return number % modulo === 0 ?
-    +       /* istanbul ignore next */
-    +       (cov_1vsvadvvax().b[0][0]++, string) :
-    +       /* istanbul ignore next */
-    +       (cov_1vsvadvvax().b[0][1]++, number);
-    +     }
-
-      17 |   });
-      18 |   it('to get Fizz', () => {
-    > 19 |     expect(fizzBuzzArray[2]).toEqual(fizzBuzzArrayDump[2]);
-         |                              ^
-      20 |   });
-      21 |   it('to get Buzz', () => {
-      22 |     expect(fizzBuzzArray[4]).toEqual(fizzBuzzArrayDump[3]);
-
-      at Object.<anonymous> (hiker.test.js:19:30)
-
-  ● fizzbuzz › to get Buzz
-
-    expect(received).toEqual(expected) // deep equality
-
-    - Expected  -  1
-    + Received  + 10
-
-    - Buzz
-    + number => {
-    +       /* istanbul ignore next */
-    +       cov_1vsvadvvax().f[8]++;
-    +       cov_1vsvadvvax().s[11]++;
-    +       return number % modulo === 0 ?
-    +       /* istanbul ignore next */
-    +       (cov_1vsvadvvax().b[0][0]++, string) :
-    +       /* istanbul ignore next */
-    +       (cov_1vsvadvvax().b[0][1]++, number);
-    +     }
-
-      20 |   });
-      21 |   it('to get Buzz', () => {
-    > 22 |     expect(fizzBuzzArray[4]).toEqual(fizzBuzzArrayDump[3]);
-         |                              ^
-      23 |   });
-      24 | });
-      25 | 
-
-      at Object.<anonymous> (hiker.test.js:22:30)
+      at getFizzBuzzList (hiker.js:18:8)
+      at Suite.<anonymous> (hiker.test.js:14:27)
+      at Object.<anonymous> (hiker.test.js:12:1)
 
 Test Suites: 1 failed, 1 total
-Tests:       3 failed, 3 total
+Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        1.664 s
+Time:        1.386 s
 Ran all test suites.
 npm ERR! code ELIFECYCLE
 npm ERR! errno 1
@@ -105,4 +32,4 @@ npm ERR! Failed at the @ test script.
 npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     /home/sandbox/.npm/_logs/2022-08-26T09_53_50_914Z-debug.log
+npm ERR!     /home/sandbox/.npm/_logs/2022-08-26T09_54_24_406Z-debug.log

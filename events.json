@@ -683,5 +683,21 @@
       51,
       119884
     ]
+  },
+  {
+    "duration": 3.494666,
+    "colour": "red",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 43,
+    "time": [
+      2022,
+      8,
+      26,
+      9,
+      54,
+      24,
+      615084
+    ]
   }
 ]
