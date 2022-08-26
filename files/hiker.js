@@ -5,15 +5,16 @@ function answer() {
 }
 
 function getFizzBuzzList() {
+  
   const mapToFizzForModulo3 = mapModuloToString(3,"Fizz");
   const mapToBuzzForModulo5 = mapModuloToString(5,"Buzz");
   const mapToFizzBuzzForModulo15 = mapModuloToString(15,"Buzz");
   
   
   const resultArray = Array.from({length: 100}, (x, i) => i+1)
-  .map(i => mapToFizzForModulo3(i))
-  .map(i=> mapToBuzzForModulo5(i))
-  .map(i=> mapToFizzBuzzForModulo15(i))
+  .map(i => mapToFizzForModulo3)
+  .map(i=> mapToBuzzForModulo5)
+  .map(i=> mapToFizzBuzzForModulo15)
   .map(i=>i+"");
   
   function mapModuloToString(modulo, string)
