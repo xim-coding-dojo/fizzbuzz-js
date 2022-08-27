@@ -12,9 +12,9 @@ function getFizzBuzzList() {
   
   
   const resultArray = Array.from({length: 100}, (x, i) => i+1)
-  .map(mapToFizzForModulo3)
-  .map(mapToBuzzForModulo5)
   .map(mapToFizzBuzzForModulo15)
+  .map(mapToBuzzForModulo5)
+  .map(mapToFizzForModulo3)
   .map(i=>i+"");
   
   function mapModuloToString(modulo, string)
