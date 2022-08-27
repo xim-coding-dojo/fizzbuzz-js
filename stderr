@@ -1,11 +1,39 @@
-PASS ./hiker.test.js
+FAIL ./hiker.test.js
   fizzbuzz
-    ✓ to get first (2 ms)
-    ✓ to get Fizz (1 ms)
-    ✓ to get Buzz
+    ✓ to get first (3 ms)
+    ✓ to get Fizz
+    ✓ to get Buzz (1 ms)
+    ✕ to get FizzBuzz (3 ms)
 
-Test Suites: 1 passed, 1 total
-Tests:       3 passed, 3 total
+  ● fizzbuzz › to get FizzBuzz
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: "FizzBuzz"
+    Received: "Fizz"
+
+      23 |   });
+      24 |     it('to get FizzBuzz', () => {
+    > 25 |     expect(fizzBuzzArray[14]).toEqual(fizzBuzzArrayDump[4]);
+         |                               ^
+      26 |   });
+      27 | });
+      28 | 
+
+      at Object.<anonymous> (hiker.test.js:25:31)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 3 passed, 4 total
 Snapshots:   0 total
-Time:        1.54 s
+Time:        1.619 s
 Ran all test suites.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @ test: `jest --coverage`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the @ test script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/sandbox/.npm/_logs/2022-08-27T10_58_04_587Z-debug.log

@@ -10,7 +10,7 @@ const getFizzBuzzList = require('./hiker');
 */
 
 describe('fizzbuzz', () => {
-    const fizzBuzzArrayDump = ["1", "2", "Fizz", "Buzz"];
+    const fizzBuzzArrayDump = ["1", "2", "Fizz", "Buzz","FizzBuzz"];
     const fizzBuzzArray = getFizzBuzzList();
   it('to get first', () => {
     expect(fizzBuzzArray[0]).toEqual(fizzBuzzArrayDump[0]);
@@ -20,5 +20,8 @@ describe('fizzbuzz', () => {
   });
   it('to get Buzz', () => {
     expect(fizzBuzzArray[4]).toEqual(fizzBuzzArrayDump[3]);
+  });
+    it('to get FizzBuzz', () => {
+    expect(fizzBuzzArray[14]).toEqual(fizzBuzzArrayDump[4]);
   });
 });
