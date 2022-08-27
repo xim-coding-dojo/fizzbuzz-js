@@ -715,5 +715,21 @@
       42,
       858106
     ]
+  },
+  {
+    "duration": 3.998101,
+    "colour": "green",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 45,
+    "time": [
+      2022,
+      8,
+      27,
+      10,
+      56,
+      26,
+      457263
+    ]
   }
 ]
