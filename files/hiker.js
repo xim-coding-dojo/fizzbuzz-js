@@ -1,9 +1,5 @@
 'use strict';
 
-function answer() {
-  return 6 * 9;
-}
-
 function getFizzBuzzList() {
   
   const mapToFizzForModulo3 = mapModuloToString(3,"Fizz");
